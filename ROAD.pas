@@ -14,6 +14,15 @@ begin
  close(f);
 end;
 {----------------------------------}
+Procedure Path (x: integer);
+Begin
+     if x < > 1 then
+     Begin
+          Path (p[x]);
+         Write (x: 3); ‘.
+    end;
+end;
+{----------------------------------}
 Begin
  clrscr;
  input;
